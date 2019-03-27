@@ -12,6 +12,15 @@
 		9601B7792243C6A2002EB6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9601B7772243C6A2002EB6B1 /* Main.storyboard */; };
 		9601B77B2243C6A3002EB6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9601B77A2243C6A3002EB6B1 /* Assets.xcassets */; };
 		9601B77E2243C6A3002EB6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9601B77C2243C6A3002EB6B1 /* LaunchScreen.storyboard */; };
+		9601B7862243C958002EB6B1 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B7852243C958002EB6B1 /* CategoryTableViewController.swift */; };
+		9601B7882243C980002EB6B1 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B7872243C980002EB6B1 /* MenuTableViewController.swift */; };
+		9601B78A2243C9A1002EB6B1 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B7892243C9A1002EB6B1 /* OrderTableViewController.swift */; };
+		9601B78C2243CC4B002EB6B1 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B78B2243CC4B002EB6B1 /* MenuItemDetailViewController.swift */; };
+		9601B78E2243CD7D002EB6B1 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B78D2243CD7D002EB6B1 /* MenuItem.swift */; };
+		9601B7902243D00D002EB6B1 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B78F2243D00D002EB6B1 /* IntermediaryModels.swift */; };
+		9601B7922243D1DE002EB6B1 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B7912243D1DE002EB6B1 /* MenuController.swift */; };
+		9601B7942243D36E002EB6B1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601B7932243D36E002EB6B1 /* Order.swift */; };
+		96EEA6ED224A80A80051D6BE /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EEA6EC224A80A80051D6BE /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		9601B77A2243C6A3002EB6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9601B77D2243C6A3002EB6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9601B77F2243C6A3002EB6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9601B7852243C958002EB6B1 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		9601B7872243C980002EB6B1 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		9601B7892243C9A1002EB6B1 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		9601B78B2243CC4B002EB6B1 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		9601B78D2243CD7D002EB6B1 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		9601B78F2243D00D002EB6B1 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		9601B7912243D1DE002EB6B1 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		9601B7932243D36E002EB6B1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		96EEA6EC224A80A80051D6BE /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,15 @@
 			children = (
 				9601B7732243C6A2002EB6B1 /* AppDelegate.swift */,
 				9601B7752243C6A2002EB6B1 /* ViewController.swift */,
+				9601B78B2243CC4B002EB6B1 /* MenuItemDetailViewController.swift */,
+				9601B7852243C958002EB6B1 /* CategoryTableViewController.swift */,
+				9601B7872243C980002EB6B1 /* MenuTableViewController.swift */,
+				9601B7892243C9A1002EB6B1 /* OrderTableViewController.swift */,
+				9601B78F2243D00D002EB6B1 /* IntermediaryModels.swift */,
+				9601B7912243D1DE002EB6B1 /* MenuController.swift */,
+				9601B7932243D36E002EB6B1 /* Order.swift */,
+				9601B78D2243CD7D002EB6B1 /* MenuItem.swift */,
+				96EEA6EC224A80A80051D6BE /* OrderConfirmationViewController.swift */,
 				9601B7772243C6A2002EB6B1 /* Main.storyboard */,
 				9601B77A2243C6A3002EB6B1 /* Assets.xcassets */,
 				9601B77C2243C6A3002EB6B1 /* LaunchScreen.storyboard */,
@@ -135,8 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9601B78E2243CD7D002EB6B1 /* MenuItem.swift in Sources */,
+				9601B7922243D1DE002EB6B1 /* MenuController.swift in Sources */,
+				9601B7942243D36E002EB6B1 /* Order.swift in Sources */,
+				9601B7882243C980002EB6B1 /* MenuTableViewController.swift in Sources */,
+				9601B78C2243CC4B002EB6B1 /* MenuItemDetailViewController.swift in Sources */,
+				9601B78A2243C9A1002EB6B1 /* OrderTableViewController.swift in Sources */,
+				9601B7902243D00D002EB6B1 /* IntermediaryModels.swift in Sources */,
 				9601B7762243C6A2002EB6B1 /* ViewController.swift in Sources */,
 				9601B7742243C6A2002EB6B1 /* AppDelegate.swift in Sources */,
+				96EEA6ED224A80A80051D6BE /* OrderConfirmationViewController.swift in Sources */,
+				9601B7862243C958002EB6B1 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
