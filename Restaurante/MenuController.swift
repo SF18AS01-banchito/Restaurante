@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class MenuController{
     
@@ -87,6 +88,17 @@ class MenuController{
         task.resume()
     }
     
-    
+    func fetchImage(url: URL, completion: @escaping (UIImage?) -> Void) {
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+           
+            if let data = data,
+                let image = UIImage(data: data) {
+                completion(image)
+            } else {
+                completion(nil)
+            }
+        }
+        task.resume()
+    }
     
 }
